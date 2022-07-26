@@ -1,10 +1,3 @@
-/*
-Template Name:Sanura HTML Template
-Description:A Portfolio HTML Template
-Author:Chris Creed
-URL:http://www.chris-creed.com
-*/
-
 /* Colors:Orange - #ff7200 */
 
 @import "reset.css";
@@ -106,19 +99,22 @@ p{
 }
 #header h1 a{
 	float:left;
-	background:url(../images/logo.png) no-repeat;
+	/* background:url(../images/logo.png) no-repeat; */
 	width:639px;
-	height:82px;
-	text-indent:-9999px;
-	margin:0 0 6px 0;
+	height:55px;
+	/* text-indent:-9999px; */
+	margin:25px 0 6px 0;
+	font-size:64px;
 }
 #header h2{
 	float:left;
-	background:url(../images/subtitle.png) no-repeat;
-	width:549px;
+	/* background:url(../images/subtitle.png) no-repeat; */
+	/* width:549px; */
 	height:65px;
-	text-indent:-9999px;
+	/* text-indent:-9999px; */
 	margin:0;
+	font-size:48px;
+	color: #999999;
 }
 /*-----------*/
 /* -- Nav -- */
