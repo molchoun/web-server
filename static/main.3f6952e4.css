@@ -296,6 +296,11 @@ img {
   vertical-align: middle;
 }
 .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-profil {
   margin: 24px;
   display: block;
   max-width: 100%;
@@ -3546,6 +3551,8 @@ tbody.collapse.in {
 .navbar-fixed-bottom,
 .navbar-fixed-top {
   position: fixed;
+  right: 0;
+  left: 0;
   z-index: 1030;
 }
 @media (min-width: 768px) {
@@ -4955,10 +4962,10 @@ textarea {
 }
 .card-container {
   background-color: #fff;
-  padding: 2rem 5rem;
+  padding: 2rem 2rem;
   position: relative;
   width: 80%;
-  margin: -10em auto 20px;
+  margin: -5em auto 20px;
 }
 @media (max-width: 992px) {
   .card-container {
@@ -5083,12 +5090,11 @@ textarea {
   background-color: #fff;
 }
 /*Navigation bar links*/
-/*@media (min-width: 768px) {*/
+@media (min-width: 768px) {
 .navbar-inverse .navbar-nav > li > a {
   border-right: 2px solid #fff;
-  color: #fff;
   }
-/*}*/
+}
 .navbar-inverse .navbar-nav > li:last-of-type a {
   border-right: none;
 }
